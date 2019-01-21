@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\ronen\source\repos\BlueSpursTest\BlueSpursTest.WebAPI\..\Publish-Prod</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Aleph1.DI.Contracts.dll">
+      <publishTime>01/19/2019 18:07:59</publishTime>
+    </File>
+    <File Include="bin/Aleph1.DI.CustomConfigurationSection.dll">
+      <publishTime>07/30/2018 10:06:08</publishTime>
+    </File>
+    <File Include="bin/Aleph1.DI.UnityImplementation.dll">
+      <publishTime>01/19/2019 18:07:59</publishTime>
+    </File>
+    <File Include="bin/Aleph1.WebAPI.ExceptionHandler.dll">
+      <publishTime>07/30/2018 10:06:18</publishTime>
+    </File>
+    <File Include="bin/BlueSpursTest.BL.Contracts.dll">
+      <publishTime>01/21/2019 12:40:20</publishTime>
+    </File>
+    <File Include="bin/BlueSpursTest.BL.Contracts.pdb">
+      <publishTime>01/21/2019 12:40:20</publishTime>
+    </File>
+    <File Include="bin/BlueSpursTest.Models.dll">
+      <publishTime>01/21/2019 12:40:20</publishTime>
+    </File>
+    <File Include="bin/BlueSpursTest.Models.pdb">
+      <publishTime>01/21/2019 12:40:20</publishTime>
+    </File>
+    <File Include="bin/BlueSpursTest.WebAPI.dll">
+      <publishTime>01/21/2019 12:40:23</publishTime>
+    </File>
+    <File Include="bin/BlueSpursTest.WebAPI.pdb">
+      <publishTime>01/21/2019 12:40:23</publishTime>
+    </File>
+    <File Include="bin/BlueSpursTest.WebAPI.xml">
+      <publishTime>01/21/2019 12:40:23</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>02/13/2018 16:28:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>11/27/2018 18:07:34</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.pdb">
+      <publishTime>11/27/2018 17:59:08</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/13/2012 12:19:34</publishTime>
+    </File>
+    <File Include="bin/Swashbuckle.Core.dll">
+      <publishTime>07/08/2017 01:30:56</publishTime>
+    </File>
+    <File Include="bin/System.ComponentModel.Annotations.dll">
+      <publishTime>05/15/2018 13:29:36</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>11/28/2018 13:00:36</publishTime>
+    </File>
+    <File Include="bin/System.ValueTuple.dll">
+      <publishTime>05/15/2018 13:29:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>11/28/2018 13:01:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>11/28/2018 13:02:56</publishTime>
+    </File>
+    <File Include="bin/Unity.Abstractions.dll">
+      <publishTime>08/12/2018 21:48:58</publishTime>
+    </File>
+    <File Include="bin/Unity.AspNet.WebApi.dll">
+      <publishTime>08/29/2018 13:15:40</publishTime>
+    </File>
+    <File Include="bin/Unity.Container.dll">
+      <publishTime>12/06/2018 22:41:14</publishTime>
+    </File>
+    <File Include="bin/WebActivatorEx.dll">
+      <publishTime>10/05/2016 13:11:52</publishTime>
+    </File>
+    <File Include="bin/WebApiThrottle.dll">
+      <publishTime>07/31/2017 21:41:08</publishTime>
+    </File>
+    <File Include="Documentation/BlueSpursTest.BL.Contracts.xml">
+      <publishTime>01/21/2019 12:40:20</publishTime>
+    </File>
+    <File Include="Documentation/BlueSpursTest.External.Services.Contracts.xml">
+      <publishTime>01/21/2019 12:40:20</publishTime>
+    </File>
+    <File Include="Documentation/BlueSpursTest.Models.xml">
+      <publishTime>01/21/2019 12:40:20</publishTime>
+    </File>
+    <File Include="Documentation/BlueSpursTest.WebAPI.xml">
+      <publishTime>01/21/2019 12:40:23</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/19/2019 18:11:57</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>01/21/2019 12:38:58</publishTime>
+    </File>
+    <File Include="Modules/Aleph1.DI.Contracts.dll">
+      <publishTime>01/19/2019 18:07:59</publishTime>
+    </File>
+    <File Include="Modules/BlueSpursTest.BL.Contracts.dll">
+      <publishTime>01/21/2019 12:40:20</publishTime>
+    </File>
+    <File Include="Modules/BlueSpursTest.BL.Implementation.dll">
+      <publishTime>01/21/2019 12:40:21</publishTime>
+    </File>
+    <File Include="Modules/BlueSpursTest.External.BESTBUYServices.Implementation.dll">
+      <publishTime>01/21/2019 12:40:21</publishTime>
+    </File>
+    <File Include="Modules/BlueSpursTest.External.Services.Contracts.dll">
+      <publishTime>01/21/2019 12:40:20</publishTime>
+    </File>
+    <File Include="Modules/BlueSpursTest.External.WALMARTServices.Implementation.dll">
+      <publishTime>01/21/2019 12:40:21</publishTime>
+    </File>
+    <File Include="Modules/BlueSpursTest.Models.dll">
+      <publishTime>01/21/2019 12:40:20</publishTime>
+    </File>
+    <File Include="Modules/Newtonsoft.Json.dll">
+      <publishTime>11/27/2018 18:07:34</publishTime>
+    </File>
+    <File Include="Modules/System.Net.Http.Formatting.dll">
+      <publishTime>11/28/2018 13:00:36</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/21/2019 12:41:05</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
