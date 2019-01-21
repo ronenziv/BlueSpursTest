@@ -71,6 +71,7 @@
     <Compile Include="BESTBUYProductService.cs" />
     <Compile Include="ModuleInit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SettingsManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BlueSpursTest.External.Services.Contracts\BlueSpursTest.External.Services.Contracts.csproj">

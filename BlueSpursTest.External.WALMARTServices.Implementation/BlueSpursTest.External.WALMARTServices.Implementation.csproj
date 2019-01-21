@@ -67,6 +67,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SettingsManager.cs" />
     <Compile Include="WALMARTProduct.cs" />
     <Compile Include="WALMARTProductService.cs" />
     <Compile Include="ModuleInit.cs" />

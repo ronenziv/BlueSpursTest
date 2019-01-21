@@ -16,19 +16,16 @@ namespace BlueSpursTest.BL.Implementation
             this.ExternalProductService = ExternalProductService;
         }
 
-        public async Task<Product> GetLowestPriceProduct(int ID)
-        {
-            return await ExternalProductService[0].GetLowestPriceProduct(ID);
-        }
-
         public async Task<Product> GetLowestPriceProductByName(string productName)
         {
-            //return await ExternalProductService.GetLowestPriceProductByName(productName);
-            Product productBestBuy = await ExternalProductService[0].GetLowestPriceProductByName(productName);
-            Product productWalmart = await ExternalProductService[1].GetLowestPriceProductByName(productName);
-            IEnumerable<Product> items = new List<Product>() { productBestBuy, productWalmart };
-            Product lowest = items.OrderByDescending(i => i.BestPrice).Last();
-            return lowest;
+            List<Product> items = new List<Product>();
+            foreach (IExternalProductService service in ExternalProductService)
+            {
+                Product pr = await service.GetLowestPriceProductByName(productName);
+                items.Add(pr);
+            }
+
+            return items.OrderBy(i => i.BestPrice).First();
         }
     }
 }

@@ -5,10 +5,6 @@ namespace BlueSpursTest.Models
     /// <summary>product details</summary>
     public class Product
     {
-        /// <summary>ID</summary>
-        [DisplayName(@"ID")]
-        public long ID { get; set; }
-
         /// <summary>Product Name</summary>
         [DisplayName("Product Name")]
         public string ProductName { get; set; }

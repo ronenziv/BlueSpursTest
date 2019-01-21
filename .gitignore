@@ -8,3 +8,5 @@
 /Publish-*
 **/[b|B]in
 **/obj
+*.csproj.user
+*.user
